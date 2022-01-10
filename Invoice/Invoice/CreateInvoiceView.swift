@@ -268,7 +268,17 @@ struct CreateInvoiceView: View {
         .edgesIgnoringSafeArea(.bottom)
         .navigationBarTitle("Create Invoice", displayMode: .inline)
         .navigationBarItems(leading: Text(""),
-                            trailing: Text("Skip"))
+                            trailing: NavigationLink(destination: InvoiceListView()) {
+            HStack {
+                Text("Invoice List")
+                    .font(.system(size: 18))
+                    .bold()
+            }.foregroundColor(Color.white)
+                .padding([.vertical], 20)
+                .padding([.horizontal], 30)
+                .background(RoundedRectangle(cornerRadius: 10)
+                                .fill(ColorUtility.appThemeColor))
+        })
 
 
     }

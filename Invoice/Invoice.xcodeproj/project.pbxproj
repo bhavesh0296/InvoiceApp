@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066ECE0C8D963BB7B7403E8F /* Pods_Invoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 782A2C6FEC4F30AAAAFC8A94 /* Pods_Invoice.framework */; };
 		407EA50B275006C4009F1C38 /* InvoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407EA50A275006C4009F1C38 /* InvoiceApp.swift */; };
 		407EA50D275006C4009F1C38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407EA50C275006C4009F1C38 /* ContentView.swift */; };
 		407EA50F275006CA009F1C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407EA50E275006CA009F1C38 /* Assets.xcassets */; };
 		407EA512275006CA009F1C38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 407EA511275006CA009F1C38 /* Preview Assets.xcassets */; };
+		409DD2FC278C902C00E13EC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 409DD2FB278C902C00E13EC0 /* GoogleService-Info.plist */; };
+		409DD2FF278CA4C100E13EC0 /* CrashUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409DD2FE278CA4C100E13EC0 /* CrashUtility.swift */; };
+		409DD301278CA8DD00E13EC0 /* InvoiceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409DD300278CA8DD00E13EC0 /* InvoiceListView.swift */; };
 		40C8C8A0278A1CFA00AA5991 /* CreateInvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8C89F278A1CFA00AA5991 /* CreateInvoiceView.swift */; };
 		40C8C8A2278A2B7200AA5991 /* InvoiceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8C8A1278A2B7100AA5991 /* InvoiceInfoView.swift */; };
 		40C8C8A6278A320E00AA5991 /* AddBusinessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8C8A5278A320E00AA5991 /* AddBusinessView.swift */; };
@@ -25,11 +29,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		177FF1E2018C460C3D6C7335 /* Pods-Invoice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invoice.debug.xcconfig"; path = "Target Support Files/Pods-Invoice/Pods-Invoice.debug.xcconfig"; sourceTree = "<group>"; };
 		407EA507275006C4009F1C38 /* Invoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		407EA50A275006C4009F1C38 /* InvoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceApp.swift; sourceTree = "<group>"; };
 		407EA50C275006C4009F1C38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		407EA50E275006CA009F1C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		407EA511275006CA009F1C38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		409DD2FB278C902C00E13EC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		409DD2FD278C923100E13EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		409DD2FE278CA4C100E13EC0 /* CrashUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashUtility.swift; sourceTree = "<group>"; };
+		409DD300278CA8DD00E13EC0 /* InvoiceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceListView.swift; sourceTree = "<group>"; };
 		40C8C89F278A1CFA00AA5991 /* CreateInvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInvoiceView.swift; sourceTree = "<group>"; };
 		40C8C8A1278A2B7100AA5991 /* InvoiceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceInfoView.swift; sourceTree = "<group>"; };
 		40C8C8A5278A320E00AA5991 /* AddBusinessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBusinessView.swift; sourceTree = "<group>"; };
@@ -41,6 +50,8 @@
 		40D16797278886AF0073E060 /* ColorUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtility.swift; sourceTree = "<group>"; };
 		40D16799278895110073E060 /* BusinessLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessLogoView.swift; sourceTree = "<group>"; };
 		40D1679B27889E7C0073E060 /* AllSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSetView.swift; sourceTree = "<group>"; };
+		782A2C6FEC4F30AAAAFC8A94 /* Pods_Invoice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Invoice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF58FE2CEEC534DE95214EFD /* Pods-Invoice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invoice.release.xcconfig"; path = "Target Support Files/Pods-Invoice/Pods-Invoice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				066ECE0C8D963BB7B7403E8F /* Pods_Invoice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +71,8 @@
 			children = (
 				407EA509275006C4009F1C38 /* Invoice */,
 				407EA508275006C4009F1C38 /* Products */,
+				45A534A96EA4FC16ED8AE45E /* Pods */,
+				B80284B49A7A47649CF1FC5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,11 +87,14 @@
 		407EA509275006C4009F1C38 /* Invoice */ = {
 			isa = PBXGroup;
 			children = (
+				409DD2FD278C923100E13EC0 /* Info.plist */,
+				409DD2FB278C902C00E13EC0 /* GoogleService-Info.plist */,
 				40C8C8A4278A2C5800AA5991 /* AppWindow */,
 				40C8C8A3278A2BC000AA5991 /* Utility */,
 				40D16797278886AF0073E060 /* ColorUtility.swift */,
 				40C8C8A5278A320E00AA5991 /* AddBusinessView.swift */,
 				40C8C8A7278A36F700AA5991 /* AddItemsView.swift */,
+				409DD300278CA8DD00E13EC0 /* InvoiceListView.swift */,
 				40C8C8AB278A41F900AA5991 /* UploadSignatureView.swift */,
 				40C8C8A9278A408200AA5991 /* PaymentInstructionView.swift */,
 				40C8C8A1278A2B7100AA5991 /* InvoiceInfoView.swift */,
@@ -104,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				40D16793278879250073E060 /* Logger.swift */,
+				409DD2FE278CA4C100E13EC0 /* CrashUtility.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -116,6 +134,23 @@
 			path = AppWindow;
 			sourceTree = "<group>";
 		};
+		45A534A96EA4FC16ED8AE45E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				177FF1E2018C460C3D6C7335 /* Pods-Invoice.debug.xcconfig */,
+				FF58FE2CEEC534DE95214EFD /* Pods-Invoice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B80284B49A7A47649CF1FC5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				782A2C6FEC4F30AAAAFC8A94 /* Pods_Invoice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 407EA515275006CA009F1C38 /* Build configuration list for PBXNativeTarget "Invoice" */;
 			buildPhases = (
+				9B0CAA12A517C10CFBB8B3D8 /* [CP] Check Pods Manifest.lock */,
 				407EA503275006C4009F1C38 /* Sources */,
 				407EA504275006C4009F1C38 /* Frameworks */,
 				407EA505275006C4009F1C38 /* Resources */,
+				354519E1D669FE572D53B883 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,10 +213,53 @@
 			files = (
 				407EA512275006CA009F1C38 /* Preview Assets.xcassets in Resources */,
 				407EA50F275006CA009F1C38 /* Assets.xcassets in Resources */,
+				409DD2FC278C902C00E13EC0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		354519E1D669FE572D53B883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invoice/Pods-Invoice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Invoice/Pods-Invoice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Invoice/Pods-Invoice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0CAA12A517C10CFBB8B3D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Invoice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		407EA503275006C4009F1C38 /* Sources */ = {
@@ -197,7 +277,9 @@
 				40D1679C27889E7C0073E060 /* AllSetView.swift in Sources */,
 				40D1679A278895110073E060 /* BusinessLogoView.swift in Sources */,
 				40C8C8A8278A36F700AA5991 /* AddItemsView.swift in Sources */,
+				409DD301278CA8DD00E13EC0 /* InvoiceListView.swift in Sources */,
 				40D16794278879250073E060 /* Logger.swift in Sources */,
+				409DD2FF278CA4C100E13EC0 /* CrashUtility.swift in Sources */,
 				40C8C8A0278A1CFA00AA5991 /* CreateInvoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,21 +405,24 @@
 		};
 		407EA516275006CA009F1C38 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FF1E2018C460C3D6C7335 /* Pods-Invoice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = "\"Invoice/Preview Content\"";
 				DEVELOPMENT_TEAM = P5RKT2K7BV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Invoice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,6 +438,7 @@
 		};
 		407EA517275006CA009F1C38 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF58FE2CEEC534DE95214EFD /* Pods-Invoice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,12 +448,13 @@
 				DEVELOPMENT_TEAM = P5RKT2K7BV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Invoice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

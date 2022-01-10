@@ -15,9 +15,9 @@ struct PaymentInstructionView: View {
         ScrollView {
             VStack {
 
-                Text("")
-                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 2, maxHeight: 2)
-                    .background(Color.gray)
+//                Text("")
+//                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 2, maxHeight: 2)
+//                    .background(Color.gray)
 
                 VStack (spacing: 20) {
 

@@ -11,14 +11,22 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Image("background")
-                    .resizable()
-                    .edgesIgnoringSafeArea(.all)
+                if #available(iOS 15.0, *) {
+                    Image("background")
+                        .resizable()
+                        .foregroundColor(.red)
+//                        .tint(Color.purple)
+                        .edgesIgnoringSafeArea(.all)
+                } else {
+                    // Fallback on earlier versions
+                }
                 
                 VStack {
                     Image("backgroundCover")
                         .resizable()
                         .edgesIgnoringSafeArea(.all)
+//                        .background(Color.green)
+                        .foregroundColor(Color.orange)
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: UIScreen.screenHeight*0.65, maxHeight: UIScreen.screenHeight*0.65)
                     Spacer()
                 }
@@ -31,8 +39,10 @@ struct ContentView: View {
                     Button {
                         Logger.log(logLevel: .verbose,
                                    "Get Started Button Clicked")
+                        CrashUtility.shared.log()
                     } label: {
-                        NavigationLink(destination: BusinessView()) {
+                        NavigationLink(destination: InvoiceListView()) {
+//                        NavigationLink(destination: BusinessView()) {
                             Text("Get Started")
                                 .bold()
                                 .foregroundColor(Color.black)
@@ -47,7 +57,7 @@ struct ContentView: View {
                     }
                 }.padding(EdgeInsets(top: 40, leading: 0, bottom: 50, trailing: 0))
             }
-        }
+        }.tint(Color.orange)
     }
 }
 

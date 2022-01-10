@@ -16,9 +16,9 @@ struct UploadSignatureView: View {
     var body: some View {
 //        ScrollView {
             VStack {
-                Text("")
-                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 2, maxHeight: 2)
-                    .background(Color.gray)
+//                Text("")
+//                    .frame(minWidth: 0, maxWidth: .infinity, minHeight: 2, maxHeight: 2)
+//                    .background(Color.gray)
 //                Spacer()
 //                    .frame(width: 60, height: 60)
 

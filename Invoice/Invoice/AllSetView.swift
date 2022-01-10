@@ -29,8 +29,9 @@ struct AllSetView: View {
                 Button {
 
                 } label: {
-
                     NavigationLink(destination: CreateInvoiceView()) {
+//                    NavigationLink(destination: InvoiceListView()) {
+
                         HStack {
                             Text("Create a invoice")
                                 .font(.system(size: 18))
@@ -47,7 +48,9 @@ struct AllSetView: View {
             }
         }.navigationBarTitle("", displayMode: .inline)
             .navigationBarItems(leading: Text(""),
-                                trailing: Text("Skip"))
+                                trailing: Text("Skip")
+
+            )
     }
 }
 

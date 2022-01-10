@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import FirebaseCore
+
 
 @main
 struct InvoiceApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            InvoiceListView()
+
+                .onAppear() {
+                    FirebaseApp.configure()
+                }
+
+
 //            BusinessView()
 
 //            BusinessLogo()
